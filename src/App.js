@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Header from './components/Header';
 import About from './components/About';
 import Services from './components/Services';
+import Developers from './components/Developers';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Header />
       <About />
       <Services /> 
+      <Developers />
     </div>
     
   );
