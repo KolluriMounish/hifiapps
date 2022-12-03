@@ -2,6 +2,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Navbar from './components/Navbar';
 import Header from './components/Header';
+import About from './components/About';
 
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Header />
-      <h2>Hifi Apps</h2>
+      <About />
     </div>
     
   );
