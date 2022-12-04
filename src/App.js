@@ -5,6 +5,8 @@ import Header from './components/Header';
 import About from './components/About';
 import Services from './components/Services';
 import Developers from './components/Developers';
+// import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -15,6 +17,8 @@ function App() {
       <About />
       <Services /> 
       <Developers />
+      {/* <Contact /> */}
+      <Footer />
     </div>
     
   );
