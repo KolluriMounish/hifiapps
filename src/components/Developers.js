@@ -11,17 +11,17 @@ import { Pagination, Navigation } from "swiper";
 const data = [
     {
         id:1,
-        username : "Manoj",
+        username : "Manoj Varm",
         testimonial : "Python Developer"
     },
     {
         id:2,
-        username : "Ashok",
+        username : "Ashok Kumar",
         testimonial : "AWS Admin"
     },
     {
         id:3,
-        username : "Raj Kumar",
+        username : "Raj Shekar",
         testimonial : "React Developer"
     },
     {
@@ -31,37 +31,37 @@ const data = [
     },
     {
         id:5,
-        username : "Dinesh",
+        username : "Dinesh Reddy",
         testimonial : "CRM Developer"
     },
     {
         id:6,
-        username : "Vinay",
+        username : "Vinay Kuyya",
         testimonial : "Python Developer"
     },
     {
         id:7,
-        username : "Venkat",
+        username : "Venkataswarlu",
         testimonial : "IOS Developer"
     },
     {
         id:8,
-        username : "Hemant",
+        username : "Hemant Allam",
         testimonial : "React Developer"
     },
     {
         id:9,
-        username : "Mounika",
+        username : "Mounika Rao",
         testimonial : "Salesforce CRM Admin"
     },
     {
         id:10,
-        username : "Pavani",
+        username : "Pavani Srinivas",
         testimonial : "Python Developer"
     },
     {
         id:11,
-        username : "Aswani",
+        username : "Aswani Dinakar",
         testimonial : "Ios Developer"
     }
 ]

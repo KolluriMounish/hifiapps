@@ -7,7 +7,7 @@ const Header = () => {
         {/* <canvas></canvas> */}
         <h5>One Destination for</h5>
         <h1>web  and Mobile Applications</h1>
-        <a href="#contact" className="btn-main-offer">contact me</a>
+        <a href="#contact" className="btn-main-offer">contact us</a>
       </div>
     </div>
   )

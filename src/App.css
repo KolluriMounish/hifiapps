@@ -113,7 +113,7 @@ nav ul li {
 
 .btn-main-offer:hover {
   text-decoration: none;
-  background-color: var(--primary-hover-red);
+  background-color: var(--primary-orange);
   color: var(--primary-white);
   transition:  .2s ease-in-out;
 }
@@ -229,7 +229,7 @@ swiper {
 
 /************************ CONTACTS COMPONENT *********************************/
 .contact {
-  background: var(--primary-dark);
+  background: var(--primary-light-grey);
   padding: 3rem 0;
 }
 
@@ -243,6 +243,11 @@ swiper {
   color: var(--primary-light-grey);
   font-size: 1.2rem;
 }
+
+/* .submit-button{
+  background-color: #f9ab00;
+  margin: auto;
+} */
 
 /*------------------ INPUTS -------------------------------*/
 .contact input, .contact textarea {
@@ -278,6 +283,7 @@ swiper {
   margin: 1rem 0 0 0;
   width: 100%;
   background: none;
+  color: #000000;
 }
 
 .line {

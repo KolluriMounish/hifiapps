@@ -16,7 +16,7 @@ const Services = () => {
                             <FontAwesomeIcon icon={faDesktop} size="2x" />
                         </div>
                         <h3>Web Application</h3>
-                        <p1>We are the team of professionals who can create groundbreaking desktop solutions from scratch, modernize your legacy solutions, create custom middleware for connectivity of your enterprise applications thus making your business process agile and effective. </p1>
+                        <p>We are the team of professionals who can create groundbreaking desktop solutions from scratch, modernize your legacy solutions, create custom middleware for connectivity of your enterprise applications thus making your business process agile and effective. </p>
                     </div>
                 </div>
 
