@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/hifiapps/static/css/main.5c121a9b.css",
+    "main.js": "/hifiapps/static/js/main.d033caaa.js",
+    "static/js/787.b4612549.chunk.js": "/hifiapps/static/js/787.b4612549.chunk.js",
+    "static/media/header.jpg": "/hifiapps/static/media/header.ee14a4771b9aeb776e6c.jpg",
+    "static/media/logo.png": "/hifiapps/static/media/logo.9c43475370253a7e580a.png",
+    "static/media/HifiApp.png": "/hifiapps/static/media/HifiApp.eaa6d33c0aba5364c60f.png",
+    "static/media/user.png": "/hifiapps/static/media/user.583a0ee084f26c703346.png",
+    "index.html": "/hifiapps/index.html",
+    "main.5c121a9b.css.map": "/hifiapps/static/css/main.5c121a9b.css.map",
+    "main.d033caaa.js.map": "/hifiapps/static/js/main.d033caaa.js.map",
+    "787.b4612549.chunk.js.map": "/hifiapps/static/js/787.b4612549.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c121a9b.css",
+    "static/js/main.d033caaa.js"
+  ]
+}
