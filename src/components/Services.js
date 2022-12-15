@@ -1,16 +1,27 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faApple, faAws, faSalesforce} from '@fortawesome/free-brands-svg-icons'
+import { faApple, faAws, faSalesforce, faUikit} from '@fortawesome/free-brands-svg-icons'
 import { faDesktop } from '@fortawesome/free-solid-svg-icons'
 
 const Services = () => {
   return (
         <div id="services" className="services">
-        <h1 className="py-5"> OUR services</h1>
-        <div className="py-5">
+        <h1 className="py-3"> OUR services</h1>
+        <div className="py-3">
             <div className="container">
                 <div className="row">
-                <div className="col-md-3 col-sm-6">
+                <div className="col-md-4 col-sm-6">
+                    <div className="box">
+                        <div className="circle">
+                            <FontAwesomeIcon icon={faUikit} size="2x" />
+                        </div>
+                        <h3>UI & UX design</h3>
+                        <p>A user interface is essentially the features of a device or an application that allow a user to interact with it smoothly and intuitively. It’s humans’ unique approach that differentiates experiences. We follow Design Thinking
+to conclude problems, and an agile approach tooling those problems.</p>
+                    </div>
+                </div>
+
+                <div className="col-md-4 col-sm-6">
                     <div className="box">
                         <div className="circle">
                             <FontAwesomeIcon icon={faDesktop} size="2x" />
@@ -20,7 +31,7 @@ const Services = () => {
                     </div>
                 </div>
 
-                <div className="col-md-3 col-sm-6">
+                <div className="col-md-4 col-sm-6">
                     <div className="box">
                         <div className="circle">
                             <FontAwesomeIcon icon={faApple} size="2x" />
@@ -30,7 +41,7 @@ const Services = () => {
                     </div>
                 </div>
 
-                <div className="col-md-3 col-sm-6">
+                <div className="col-md-4 col-sm-6">
                     <div className="box">
                         <div className="circle">
                             <FontAwesomeIcon icon={faAws} size="2x" />
@@ -40,7 +51,7 @@ const Services = () => {
                     </div>
                 </div>
 
-                <div className="col-md-3 col-sm-6">
+                <div className="col-md-4 col-sm-6">
                     <div className="box">
                         <div className="circle">
                             <FontAwesomeIcon icon={faSalesforce} size="2x" />

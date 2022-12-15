@@ -44,14 +44,14 @@ nav ul li {
 }
 
 .navbar-brand{
-  max-width: 17.25rem;
+  max-width: 20.25rem;
   padding: 0 !important;
   height: 5rem !important;
 }
 
 @media(max-width: 768px) {
   .navbar-brand {
-    width: 7rem;
+    width: 1rem;
   }
  }
  
@@ -100,6 +100,166 @@ nav ul li {
   text-transform: uppercase;
 }
 
+/* -------------- Hero Section ------------------ */
+
+/* .Hero-Section{
+  max-width: fit-content;
+} */
+
+.HeroSwiper {
+  width: 100%;
+  height: 50rem;
+
+  /* width: 300px;
+  height: 300px; */
+  display: flex;
+  overflow-x: auto;
+  position: relative;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* position: relative; */
+  flex-shrink: 0;
+  /* height: 70rem; */
+  /* width: 60rem; */
+
+  /* Center slide text vertically */ 
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+/* ---------------------------------------- Slides -------------------
+/* ---------------------------------------- UIUX Slide ------------------------------- */
+
+.uiuxSlide {
+  position: absolute;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  animation: color-change 1s infinite;
+}
+.uiuxSlide a {
+  animation: color-change 1s infinite;
+}
+
+
+.uiuxSlide:hover {
+  /* text-decoration: none; */
+  /* background-color: var(--primary-orange); */
+  color: var(--primary-white);
+  transition:  .10s;
+}
+/* ---------------------------------------- Web Slide -------------------------------  */
+.webSlide {
+    position: absolute;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    animation: color-change 6s infinite;
+  }
+  .webSlide a {
+    animation: color-change 2s infinite;
+  }
+  @keyframes color-change {
+    0% { color: white; }
+    50% { color: black; }
+   
+    100% { color: orange; }
+  }
+  
+.webSlide:hover {
+    /* text-decoration: none; */
+    /* background-color: var(--primary-orange); */
+    color: var(--primary-white);
+    transition:  .10s;
+  }
+/* ---------------------------------------- AWS Slide ------------------------------- */
+
+.awsSlide {
+  position: absolute;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  animation: color-change 6s infinite;
+}
+.awsSlide a {
+  animation: color-change 1s infinite;
+}
+@keyframes color-change {
+  0% { color: white; }
+  50% { color: black; }
+  100% { color: orange; }
+}
+
+.awsSlide:hover {
+  color: var(--primary-white);
+  transition:  .10s;
+}
+/* ---------------------------------------- IOS Slide ------------------------------- */
+
+.iosSlide {
+  position: absolute;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  animation: color-change 1s infinite;
+}
+.iosSlide a {
+  animation: color-change 1s infinite;
+}
+
+
+.iosSlide:hover {
+  /* text-decoration: none; */
+  /* background-color: var(--primary-orange); */
+  color: var(--primary-white);
+  transition:  .10s;
+}
+/* ---------------------------------------- CRM Slide ------------------------------- */
+
+.crmSlide {
+  position: absolute;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  animation: color-change 1s infinite;
+}
+.crmSlide a {
+  animation: color-change 1s infinite;
+}
+
+
+.crmSlide:hover {
+  color: var(--primary-white);
+  transition:  .10s;
+}
 
 /*-------- HEADER MAIN OFFER BUTTON ---------------*/
 .btn-main-offer {
@@ -107,7 +267,7 @@ nav ul li {
   text-transform: uppercase;
   border-radius: 0;
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
-  color: var(--primary-white);
+  color: var(--primary-black);
   margin: 2rem;
 }
 
@@ -176,7 +336,7 @@ nav ul li {
 
 .services .box {
   position: relative;
-  height: 26rem;
+  height: 25rem;
   border-bottom: 0.3125rem solid var(--primary-orange);
   padding: 0.625rem;
   margin-bottom: 1.875rem;
@@ -283,7 +443,7 @@ swiper {
   margin: 1rem 0 0 0;
   width: 100%;
   background: none;
-  color: #000000;
+  color: black;
 }
 
 .line {
