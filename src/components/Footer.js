@@ -81,6 +81,9 @@ const Footer = () => {
               Copyright&copy;
               {new Date().getFullYear()}&nbsp; Hifi Apps | All Rights Reserved
             </p>
+            {/* <p className="pt-3 text-center">
+              &nbsp; Developer | Kolluri Mounish
+            </p> */}
           </div>
         </div>
       </div>
