@@ -8,14 +8,13 @@ import Developers from './components/Developers';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import HeroHeader from './components/HeroHeader';
-
+// import AnchorLink from "react-anchor-link-smooth-scroll";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <HeroHeader />
-      {/* <Header /> */}
       <About />
       <Services /> 
       <Developers />

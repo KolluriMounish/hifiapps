@@ -1,15 +1,16 @@
 import React from 'react'
 import logo from "../images/hifi_logo1.png";
-import { Link } from 'react-scroll';
+// import { Link } from 'react-scroll';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from "@fortawesome/free-solid-svg-icons"
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
     <div className="container">
-      <Link className="navbar-brand" to=''><img className='logo' src={logo} alt= "logo.." /></Link>
+      <AnchorLink className="navbar-brand" to=''><img className='logo' src={logo} alt= "logo.." /></AnchorLink>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <FontAwesomeIcon icon={faBars}  style={{color: "#fff"}} />
       </button>
@@ -17,19 +18,19 @@ const Navbar = () => {
       <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
         <ul className="navbar-nav ">
           <li className="nav-item active">
-            <Link smooth={true} to="home" offset={-110} className="nav-link " aria-current="page" href="#home">Home</Link>
+          <AnchorLink  className="nav-link " aria-current="page" href="#Hero-Section">Home</AnchorLink>
           </li>
           <li className="nav-item">
-            <Link smooth={true} to="about" offset={-110} className="nav-link " href="#aboutus">About Us</Link>
+            <AnchorLink  className="nav-link " href="#about">About Us</AnchorLink>
           </li>
           <li className="nav-item">
-            <Link smooth={true} to="services" offset={-110} className="nav-link " href="#ourservices">Our Services</Link>
+            <AnchorLink   className="nav-link " href="#services">Our Services</AnchorLink>
           </li>
           <li className="nav-item">
-            <Link smooth={true} to="team" offset={-110}  className="nav-link " href="#our people">Our People</Link>
+            <AnchorLink  className="nav-link " href="#team">Our People</AnchorLink>
           </li>
           <li className="nav-item">
-            <Link smooth={true} to="contact" offset={-110}  className="nav-link " href="#contactus">Contact Us</Link>
+            <AnchorLink  className="nav-link " href="#contact">Contact Us</AnchorLink>
           </li>
         </ul>
       </div>

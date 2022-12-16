@@ -28,7 +28,7 @@ nav {
 }
 
 /* ----------------- nav link */
-nav a.nav-link {
+nav AnchorLink.nav-link {
   letter-spacing: 0.03rem;
   cursor: pointer;
 }
