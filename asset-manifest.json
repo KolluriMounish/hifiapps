@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/hifiapps/static/css/main.fa5e1db5.css",
-    "main.js": "/hifiapps/static/js/main.e99c3877.js",
+    "main.css": "/hifiapps/static/css/main.9782b96f.css",
+    "main.js": "/hifiapps/static/js/main.6280d943.js",
     "static/js/787.b4612549.chunk.js": "/hifiapps/static/js/787.b4612549.chunk.js",
     "static/media/WebDev Slide.png": "/hifiapps/static/media/WebDev Slide.a24b6126994d53b05450.png",
     "static/media/header.jpg": "/hifiapps/static/media/header.ee14a4771b9aeb776e6c.jpg",
@@ -13,12 +13,12 @@
     "static/media/HifiApp.png": "/hifiapps/static/media/HifiApp.eaa6d33c0aba5364c60f.png",
     "static/media/user.png": "/hifiapps/static/media/user.583a0ee084f26c703346.png",
     "index.html": "/hifiapps/index.html",
-    "main.fa5e1db5.css.map": "/hifiapps/static/css/main.fa5e1db5.css.map",
-    "main.e99c3877.js.map": "/hifiapps/static/js/main.e99c3877.js.map",
+    "main.9782b96f.css.map": "/hifiapps/static/css/main.9782b96f.css.map",
+    "main.6280d943.js.map": "/hifiapps/static/js/main.6280d943.js.map",
     "787.b4612549.chunk.js.map": "/hifiapps/static/js/787.b4612549.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa5e1db5.css",
-    "static/js/main.e99c3877.js"
+    "static/css/main.9782b96f.css",
+    "static/js/main.6280d943.js"
   ]
 }
