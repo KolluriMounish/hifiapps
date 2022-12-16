@@ -1,19 +1,24 @@
 {
   "files": {
-    "main.css": "/hifiapps/static/css/main.5c121a9b.css",
-    "main.js": "/hifiapps/static/js/main.d033caaa.js",
+    "main.css": "/hifiapps/static/css/main.fa5e1db5.css",
+    "main.js": "/hifiapps/static/js/main.e99c3877.js",
     "static/js/787.b4612549.chunk.js": "/hifiapps/static/js/787.b4612549.chunk.js",
+    "static/media/WebDev Slide.png": "/hifiapps/static/media/WebDev Slide.a24b6126994d53b05450.png",
     "static/media/header.jpg": "/hifiapps/static/media/header.ee14a4771b9aeb776e6c.jpg",
-    "static/media/logo.png": "/hifiapps/static/media/logo.9c43475370253a7e580a.png",
+    "static/media/AWS Slide.png": "/hifiapps/static/media/AWS Slide.9a194172b2c02347cbb7.png",
+    "static/media/hifi_logo1.png": "/hifiapps/static/media/hifi_logo1.9bedadf7efd85c14989d.png",
+    "static/media/CRM Slide.png": "/hifiapps/static/media/CRM Slide.05d60a4fbba96e498362.png",
+    "static/media/web-development.png": "/hifiapps/static/media/web-development.95046f8c04aa69b98dbb.png",
+    "static/media/UI&UX.png": "/hifiapps/static/media/UI&UX.eadeb0a2f915a0d558e0.png",
     "static/media/HifiApp.png": "/hifiapps/static/media/HifiApp.eaa6d33c0aba5364c60f.png",
     "static/media/user.png": "/hifiapps/static/media/user.583a0ee084f26c703346.png",
     "index.html": "/hifiapps/index.html",
-    "main.5c121a9b.css.map": "/hifiapps/static/css/main.5c121a9b.css.map",
-    "main.d033caaa.js.map": "/hifiapps/static/js/main.d033caaa.js.map",
+    "main.fa5e1db5.css.map": "/hifiapps/static/css/main.fa5e1db5.css.map",
+    "main.e99c3877.js.map": "/hifiapps/static/js/main.e99c3877.js.map",
     "787.b4612549.chunk.js.map": "/hifiapps/static/js/787.b4612549.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c121a9b.css",
-    "static/js/main.d033caaa.js"
+    "static/css/main.fa5e1db5.css",
+    "static/js/main.e99c3877.js"
   ]
 }
